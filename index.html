@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/site.css" />
+    <title>Arrow</title>
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <style>
+        header {
+    color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: #f3f6ff;
+}
+
+a {
+    color: #FF6F61;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #353535;
+    outline: none;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+}
+.Lastestnews {
+     padding:90px 0px;
+     background: #fff;
+}
+ .Lastestnews .titlepage {
+     text-align: center;
+     margin-bottom: 60px;
+}
+ .Lastestnews .titlepage h2 {
+     font-size: 60px;
+     line-height: 62px;
+     color:#030000;
+     font-weight: 500;
+     text-transform: uppercase;
+}
+ .Lastestnews .titlepage span {
+     color: #060606;
+     font-size: 17px;
+     line-height: 23px;
+}
+ .Lastestnews .news-box {
+     background:#fff;
+     box-shadow: #ddd 0px 0px 8px 4px;
+}
+ .Lastestnews .news-box figure {
+     margin: 0;
+}
+ .Lastestnews .news-box figure img {
+     width: 100%;
+}
+ .Lastestnews .news-box h3 {
+     font-size: 22px;
+     line-height: 24px;
+     color: #060606;
+     font-weight: 500;
+     padding: 20px 20px 4px 20px;
+}
+ .Lastestnews .news-box span {
+     color: #e61414;
+     margin-left: 20px;
+}
+ .Lastestnews .news-box p{
+     color: #7b7a7a;
+     font-size:16px;
+     line-height: 23px;
+     padding: 7px 20px 20px 20px;
+ }
+ .text
+{
+  background: rgb(155, 240, 240);
+}
+.videos
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(63, 66, 48);
+  display: flex;
+  flex-flow: row;
+}
+.C_videos {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(185, 230, 168);
+  display: flex;
+  flex-flow: row;
+}
+.C_videos > .vid_cont > .invasion {
+  width: 90%;
+  height: 50%;
+  
+}
+.C_videos > #sec {
+  margin-left: 10px;
+}
+.C_videos > #fir {
+  margin-left: 10px;
+}
+.C_videos > .vid_cont {
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.parrafo
+{
+  background-color: MediumSeaGreen;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+}
+.i_parrafo
+{
+  margin-left: 30px;
+  margin-right: 30px;
+ width: 700px;
+ height: 200px;
+ padding-top: 10px;
+}
+.Arr
+{
+    padding-top: 15px;
+}
+.P_T{
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.P_S{
+  font-size: 15px;
+  font-family: monospace;
+}
+.P_f{
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.C_videos
+
+{
+  margin-top: 10px;
+  border: black 8px solid;
+}
+.ar
+{
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 20px;
+  
+}
+
+table tr:nth-child(1){
+            background-color: rgb(240, 86, 25);
+            display: flex; 
+            border: black 5px double;
+        }
+        table tr:nth-child(2){
+            background-color: rgb(127, 139, 252);
+            display: flex;
+            border: black 5px double;
+        }
+        table tr:nth-child(3){
+            background-color: rgb(99, 98, 85);
+            display: flex;
+            border: black 5px double;
+        }
+        table tr:nth-child(4){
+            background-color: rgb(93, 126, 156);
+            display: flex;
+            border: black 5px double;
+        }
+        table tr:nth-child(5){
+            background-color: rgb(161, 75, 48);
+            display: flex;
+            border: black 5px double;
+        }
+        table tr:nth-child(6){
+            background-color: rgb(56, 124, 180);
+            display: flex;
+            border: black 5px double;
+        }
+        table tr:nth-child(7){
+            background-color: rgb(252, 250, 127);
+            display: flex;
+            border: black 5px double;
+        }
+        table tr:nth-child(8){
+            background-color: rgb(240, 86, 25);
+            display: flex; 
+            border: black 5px double;
+        }
+        table tr:nth-child(9){
+            background-color: rgb(127, 139, 252);
+            display: flex;
+            border: black 5px double;
+        }
+        table tr:nth-child(10){
+            background-color: rgb(99, 98, 85);
+            display: flex;
+            border: black 5px double;
+        }
+        table tr:nth-child(11){
+            background-color: rgb(93, 126, 156);
+            display: flex;
+            border: black 5px double;
+        }
+        table tr:nth-child(12){
+            background-color: rgb(161, 75, 48);
+            display: flex;
+            border: black 5px double;
+        }
+        table tr:nth-child(13){
+            background-color: rgb(56, 124, 180);
+            display: flex;
+            border: black 5px double;
+        }
+        table tr:nth-child(14){
+            background-color: rgb(252, 250, 127);
+            display: flex;
+            border: black 5px double;
+        }
+        table tr:nth-child(15){
+            background-color: rgb(134, 206, 100);
+            display: flex;
+            border: black 5px double;
+        }
+
+@media(min-width: 992px) {
+    .container-fluid {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+}
+
+        </style>
+
+    <body>
+<header>
+  <audio src="Sonido/Lucifer.m4a"  autoplay></audio>
+<div class="nav">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a href="index.html" class="navbar-brand">Arrowverse</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav mr-auto">
+                    <a href="Arrow.html" class="nav-item nav-link">Arrow</a>
+                    <a href="Flash.html" class="nav-item nav-link">Flash</a>
+                    <a href="Supergirl.html" class="nav-item nav-link">Supergirl</a>
+                    <a href="Legends.html" class="nav-item nav-link">Legends</a>
+                    <a href="black.html" class="nav-item nav-link">Black</a>
+                    <a href="Batwoman.html" class="nav-item nav-link">Batwoman</a>
+                    <a href="Superman.html" class="nav-item nav-link">Superman</a>
+                    
+                    </div>
+                </div>
+</header>
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 margin text">
+    <div class="news-box Imagen_arrowverse">
+        <figure><img src="Imagen/p_arrowverse.jpg " alt="img" />  </figure>  <span><H1>Arrowverse</H1></span>
+    </div>
+</div>
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 margin text">
+    <div class="news-box">
+        El Arrowverso es una franquicia de medios estadounidense y un universo ficticio compartido 
+                que se centra en varias series de televisión que se emiten principalmente en The CW y series
+                 web en CW Seed. Los programas fueron desarrollados por Greg Berlanti, Marc Guggenheim, Andrew
+                  Kreisberg, Geoff Johns, Ali Adler, Phil Klemmer, Salim Akil y Caroline Dries, y se basan en
+                   personajes que aparecen en publicaciones de DC Comics. Ambientado en un multiverso ficticio 
+                   compartido muy parecido al Universo DC y Multiverso DC en los cómics, se estableció cruzando 
+                   elementos de la trama, escenarios, elenco y personajes comunes que abarcan seis series de 
+                   televisión de acción en vivo y dos animadas.
+    </div>
+</div>
+<div class="C_videos">
+  <div class="vid_cont" id="fir">
+      
+        <video class="invasion" src="Video/The Flash 3×08 - Invasión - Barry y Cisco van por Kara a tierra-38__(240P).webm" 
+        controls ALIGN=Down></video>
+        <li class="P_T"> Es héroes contra extraterrestres en el épico evento crossover
+        – Cuando unos extraterrestres llamados Dominadores atacan Central City,
+         Barryse apresura a llegar a Star City para pedir
+          a Green Arrow  su ayuda para detenerlos.
+           Dándose cuenta de que la batalla contra los Dominadores es mucho mayor de lo que pensaban, 
+           buscan a las Leyendas del Mañana, y Barry y Cisco crean una brecha para 
+           traer un arma secreta, Supergirl  Una vez todos los
+            super amigos están juntos, trazan un plan para atacar pero un sorprendente secreto 
+            relacionado con Flashpoint se revela y de repente nadie está seguro de en quién puede
+             confiar.
+      </li>
+  </div>
+    <div class= "vid_cont" id="sec">
+        <video  class="T_X" controls src="Video/Supergirl_ 3x08 (Crisis en Tierra X) - Heroes vs Nazis Batalla - Español Latino Parte 1(240P) (6).mp4" width="200px" height="200px" ALIGN=Down></video>
+      <li class="P_f"> La boda de Barry e Iris une a la pandilla, pero las cosas salen mal cuando los villanos de la Tierra-X atacan
+         la ceremonia. Todos los superhéroes se unen con la ayuda de sus súper amigos como el Ciudadano Frío, El Rayo, 
+         Felicity Smoak, Iris West y Alex Danvers para enfrentarse a sus villanos más formidables. Los héroes más 
+         poderosos de la Tierra, Flecha Verde, Supergirl, Flash y Canario Blanco, lideran a sus equipos en la batalla
+          para salvar el mundo.</li>
+      
+      <div class= "vid_cont" id="tir">
+          <video class="T_Infi" controls src="Video/Crisis en Tierras Infinitas _ Legends 5x01 _ _Heroes Vs. Beebo_ _ Español Latino [HD](360P).mp4" width="200px" height="200px" ALIGN=Down></video>
+        <li class="P_S">
+          En el mismo, Anti-Monitor comienza a destruir diversas Tierras del multiverso para ser el único gobernador 
+          de todo, con la antimateria como principal arma. Diversos héroes y villanos se unen ante el llamado de Monitor
+           para hacer frente a esta amenaza y en el camino muchos de ellos mueren o quedan en un limbo de existencia.
+          Esto se debe a que en una de las peleas finales se origina un 'Big Bang’ que deja al multiverso con un único 
+          universo, combinando las Tierras e historias de héroes y villanos en una sola. Solo el Psicopirata tiene 
+          recuerdos a modo de delirio de este gran evento, ya que las memorias de los demás son reemplazadas con la
+           única historia que ahora rige en todos los cómics de DC.
+        </li>
+    </div>
+</div>
+
+    </div>
+<table >
+
+  <tr>
+      <td rowspan="1" class="ar" >
+        En la segunda temporada de Arrow tuvimos la primera aparición de Barry Allen,
+        aún sin sus poderes. Los episodios 2×08 y 2×09 (El científico / Tres Fantasmas, respectivamente)
+        introducían a este científico forense que iba a Starling City a investigar un caso.
+      </td>
+      <td colspan="1"> 
+        <picture >
+            <source media="(orientacion: portrait ) and (max-widt:300px)">
+                <img src="Imagen/i_ab.jpg" width="100px" height="100px" >
+
+        </picture>
+      </td>
+      <tr>
+        <td rowspan="2" class="ar">
+          No será hasta 9 meses más tarde que Barry despierte del coma y descubra sus poderes.
+           En el piloto de la serie de The Flash, el 1×01, Barry y Oliver mantenían una conversación 
+           en una azotea donde el arquero le explicaba el camino de un héroe.
+        </td>
+        <td colspan="2"> 
+          <picture >
+              <source media="(orientacion: portrait ) and (max-widt:300px)">
+                  <img src="Imagen/i_ab.jpg" width="100px" height="100px" >
+  
+          </picture>
+        </td>
+  </tr>
+
+  <tr>
+    <td rowspan="3" class="ar">
+    En el capitulo The flash  1×04, Felicity aparece en Central City para ayudar al Equipo Flash.
+    </td>
+    <td colspan="3"> 
+      <picture >
+          <source media="(orientacion: portrait ) and (max-widt:300px)">
+              <img src="Imagen/i_fb.jpg" width="100px" height="100px" >
+      </picture>
+    </td>
+</tr>
+<tr>
+  <td rowspan="4" class="ar">
+  Héroes unen fuerzas, es en el 3×08 de Arrow, donde los dos equipos tienen que parar la amenaza del 
+  Capitán Boomerang en Starling City.
+  </td>
+  <td colspan="4"> 
+    <picture >
+        <source media="(orientacion: portrait ) and (max-widt:300px)">
+            <img src="Imagen/i_capitanbomerang.jpg" width="100px" height="100px" >
+    </picture>
+  </td>
+</tr>
+<td rowspan="5" class="ar">
+  Felicity y Ray Palmer viajan de nuevo a la ciudad central en The Flash 1×18.
+   En este episodio Flash y Atom harán equipo para parar a Brie Larvan y su ejercito de abejas robot.
+  </td>
+  <td colspan="5"> 
+    <picture >
+        <source media="(orientacion: portrait ) and (max-widt:300px)">
+            <img src="Imagen/i_abeja.jpg" width="100px" height="100px" >
+    </picture>
+  </td>
+</tr>
+
+</tr>
+<td rowspan="6" class="ar">
+  En el siguiente episodio, el 1×19, Cisco y Joe West viajan a Starling City para
+   investigar el secreto de Harrison Wells. Quentin Lance y Laurel aparecerán y Cisco
+    creará en este episodio el aparato que dará a Black Canary el poder de gritar y aturdir a sus enemigos.
+  </td>
+  <td colspan="6"> 
+    <picture >
+        <source media="(orientacion: portrait ) and (max-widt:300px)">
+            <img src="Imagen/i_balckcanary.jpg" width="100px" height="100px" >
+    </picture>
+  </td>
+</tr>
+<td rowspan="7" class="ar">
+  En el 1×22, Oliver se reunirá con Barry para ayudarle a atrapar al Reverso de Flash.
+   En el episodio 3×23 de Arrow, Flash tendrá una breve pero crucial aparición para salvar el día.
+  </td>
+  <td colspan="7"> 
+    <picture >
+        <source media="(orientacion: portrait ) and (max-widt:300px)">
+            <img src="Imagen/i_flashreverso.jpg" width="100px" height="100px" >
+    </picture>
+  </td>
+</tr>
+<td rowspan="8" class="ar">
+  El primer gran crossover, o uno que al menos tiene más relevancia es el de la introducción 
+  al villano Vandal Savage y su historia con Hawkman y Hawkgirl. En los capítulos 2×08 de Flash
+   y 4×08 de Arrow, (Leyendas de ayer y Leyendas de hoy) se reúnen varios de los héroes de las
+    dos series para derrotar a Vandal, que más adelante será el villano principal de la primera
+     temporada de DC’s Legends of Tomorrow. Justo en el piloto de esta serie, el 1×01, Laurel y
+      Oliver harán una pequeña aparición.
+  </td>
+  <td colspan="8"> 
+    <picture >
+        <source media="(orientacion: portrait ) and (max-widt:300px)">
+            <img src="Imagen/i_legenhoy.jpg" width="100px" height="100px" >
+    </picture>
+  </td>
+</tr>
+<td rowspan="9" class="ar">
+  En el 2×15 de The Flash, el Equipo Flash se enfrenta a King Shark 
+  (el Rey Tiburón). La agencia gubernamental A.R.G.U.S. aparece,
+   Lyla Michaels y John Diggle ayudarán a pararlo. En este episodio Cisco mejorará el traje de Spartan para Diggle.
+  </td>
+  <td colspan="9"> 
+    <picture >
+        <source media="(orientacion: portrait ) and (max-widt:300px)">
+            <img src="Imagen/i_rey.jpg" width="100px" height="100px" >
+    </picture>
+  </td>
+</tr>
+<td rowspan="10" class="ar">
+  En el capítulo 2×18 de The Flash (Versus Zoom) Barry atraviesa una brecha 
+  mientras corre durante unos breves segundos y luego reaparece y no se vuelve
+   a mencionar nada en el capítulo. En el 1×18 de Supergirl aprendemos que Barry
+    cruzó un portal sin quererlo que le llevó a Tierra 38, hogar de la serie de la 
+    chica de acero. En este episodio Kara y Flash se conocen y se enfrentan a Silver Banshee.
+  </td>
+  <td colspan="10"> 
+    <picture >
+        <source media="(orientacion: portrait ) and (max-widt:300px)">
+            <img src="Imagen/i_byk.jpg" width="100px" height="100px" >
+    </picture>
+  </td>
+</tr>
+<td rowspan="11" class="ar">
+  El 2×08 de la serie de Supergirl empieza el gran evento de 4 noches.
+   Aunque no es hasta el final de este episodio donde Cisco y Barry hacen 
+   su aparición para avisar a Kara de la amenaza de una raza extraterrestre. 
+   Seguidamente el 3×08 de The Flash, el 5×8 de Arrow y el 2×7 de Legends of 
+   Tomorrow serán episodios completamente dedicados a este evento. El episodio
+    de Arrow coincide con el capítulo número 100 y muchos personajes antiguos
+     aparecerán en modo de homenaje a la serie.
+  </td>
+  <td colspan="11"> 
+    <picture >
+        <source media="(orientacion: portrait ) and (max-widt:300px)">
+            <img src="Imagen/i_invasion.png" width="100px" height="100px" >
+    </picture>
+  </td>
+</tr>
+<td rowspan="12" class="ar">
+  El próximo crossover entre Flash y Supergirl empieza en el episodio 2×16
+   de Supergirl. Al final de este episodio el villano Music Meister somete a
+    Kara en una realidad donde ella es cantante en una obra. El cruce continúa
+     y acaba en el 3×17 de The Flash. Barry también va a la realidad donde está 
+     Kara y deberán aprender una lección junto a sus parejas para poder volver al mundo real.
+  </td>
+  <td colspan="12"> 
+    <picture >
+        <source media="(orientacion: portrait ) and (max-widt:300px)">
+            <img src="Imagen/i_moon.png" width="100px" height="100px" >
+    </picture>
+  </td>
+</tr>
+<td rowspan="13" class="ar">
+  El crossover empieza en el 3×08 de Supergirl, continúa en el 6×08 de Arrow, 
+  le sigue el 4×08 de The Flash y concluye en el 3×08 de Legends of Tomorrow.
+  Todo iba bien en la boda de Barry e Iris, hasta que unos nazis la interrumpen.
+   Los héroes del Arrowverso tendrán que detener esta amenaza proveniente de Tierra X,
+    una tierra en la que los nazis ganaron la Segunda Guerra Mundial y dominan el mundo.
+     Varios héroes del universo tendrán que ayudar a la pobre gente de Tierra X y hacer
+      que su situación no se extienda hacía otras tierras.
+  </td>
+  <td colspan="13"> 
+    <picture >
+        <source media="(orientacion: portrait ) and (max-widt:300px)">
+            <img src="Imagen/i_x.png" width="100px" height="100px" >
+    </picture>
+  </td>
+</tr>
+<td rowspan="14" class="ar">
+  El crossover empieza con la serie de The Flash en el capítulo 5×09, 
+  continúa en Arrow 7×09 y acaba en Supergirl 4×09. En este cruce no
+   participó la serie Legends of Tomorrow, pero el capítulo 4×08 de esta,
+    Gideon menciona que ha recibido una llamada de Oliver, Barry y Kara, a
+     lo que Ray Palmer dice que debe tratarse del crossover. Un gag humorístico
+      que de alguna forma rompe la cuarta pared.
+  </td>
+  <td colspan="14"> 
+    <picture >
+        <source media="(orientacion: portrait ) and (max-widt:300px)">
+            <img src="Imagen/i_else.jpg" width="100px" height="100px" >
+    </picture>
+  </td>
+</tr>
+<td rowspan="15" class="ar">
+  Este crossover de 2019-2020 tuvo 5 partes, 3 en diciembre y dos en enero. 
+  En él una ola de antimateria amenzaba con destruir todos los mundos y los
+   héroes de varios universos tuvieron que unirse para parar al gran villano
+    detrás de todo. Este crossover está lleno de cameos sorpresa, regresos,
+     referencias, epicidad…Y despedidas, ya que este evento marcó el final de
+      la serie Arrow después de 8 temporadas. Aunque después tuvo dos episodios más 
+      (el 8×09 y el 8×10). En el 8×10 aparecerán varios personajes de otras series
+       como Kara o Barry. El orden del crossover es el siguiente.
+  </td>
+  <td colspan="15"> 
+    <picture >
+        <source media="(orientacion: portrait ) and (max-widt:300px)">
+            <img src="Imagen/i_infinitas.jpeg" width="100px" height="100px" >
+    </picture>
+  </td>
+
+  
+</table>
+  
+                <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+        
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
